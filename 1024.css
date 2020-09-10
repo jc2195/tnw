@@ -1,0 +1,112 @@
+@media only screen and (max-width: 1024px) {
+  .botnav div {
+    padding: 0 6px;
+    line-height: 30px;
+    margin-left: 126px;
+  }
+  .logo {
+    display: block;
+    padding-top: auto;
+    padding-bottom: auto;
+    width: 116px;
+    background-color: #f42;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+  }
+  .headlines {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 151px 151px;
+    grid-gap: 8px;
+    margin-top: 2px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 32px;
+  }
+  .mainheadline {
+    background-color: red;
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+  .subheadline {
+    background-color: orange;
+  }
+  .pagewrapper {
+    max-width: 1192px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    background-color: grey;
+    height: 100px;
+    width: 100%;
+  }
+  .flexwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .latestnewsitem {
+    position: absolute;
+  }
+  .newswrapper {
+    max-width: 33.33333%;
+    padding-top: 25%;
+    flex-basis: 33.33333%;
+    border: solid 8px white;
+    box-sizing: border-box;
+  }
+  .fundingrounds {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+  .fundingwrapper {
+    max-width: 33.33333333%;
+    padding-top: 28.287%;
+    flex-basis: 33.3333333%;
+    border: solid 8px white;
+    background-color: pink;
+    box-sizing: border-box;
+  }
+  .fundinground {
+    position: absolute;
+  }
+  .categorywrapper {
+    max-width: 50%;
+    padding-top: 69.2%;
+    flex-basis: 50%;
+    border: solid 1px white;
+    background-color: green;
+    box-sizing: border-box;
+  }
+  .category {
+    position: absolute;
+  }
+  .dealwrapper {
+    max-width: 33.3333333%;
+    padding-top: 33.333333%;
+    flex-basis: 33.333333%;
+    border: solid 1px white;
+    background-color: red;
+    box-sizing: border-box;
+  }
+  .deal {
+    position: absolute;
+  }
+  footer {
+    width: 100%;
+  }
+  .footertop {
+    height: 161px;
+    width: 100%;
+    background-color: #131313;
+  }
+  .footerbottom {
+    height: 97px;
+    width: 100%;
+    background-color: black;
+  }
+}

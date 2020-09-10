@@ -1,0 +1,132 @@
+@media only screen and (max-width: 768px) {
+  .botnav div {
+    padding: 0 6px;
+    line-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .topnav {
+    display: none;
+  }
+  .midnavleft {
+    display: none;
+  }
+  .midnavright {
+    display: none;
+  }
+  .botnav {
+    height: 64px;
+  }
+  .logo {
+    display: block;
+    padding-top: auto;
+    padding-bottom: auto;
+    width: 116px;
+    background-color: #f42;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+  }
+  #logoimage {
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  .headlines {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 151px 151px 151px;
+    grid-gap: 8px;
+    margin-top: 2px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 32px;
+  }
+  .mainheadline {
+    background-color: red;
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .subheadline {
+    background-color: orange;
+  }
+  .pagewrapper {
+    max-width: 1192px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    background-color: grey;
+    height: 100px;
+    width: 100%;
+  }
+  .flexwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .latestnewsitem {
+    position: absolute;
+  }
+  .newswrapper {
+    max-width: 100%;
+    height: 72px;
+    padding-top: 0;
+    flex-basis: 100%;
+    border: solid 1px white;
+    box-sizing: border-box;
+  }
+  .fundingrounds {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+  .fundingwrapper {
+    max-width: 100%;
+    height: 248.125px;
+    padding-top: 0;
+    flex-basis: 100%;
+    border: solid 1px white;
+    background-color: pink;
+    box-sizing: border-box;
+  }
+  .fundinground {
+    position: absolute;
+  }
+  .categorywrapper {
+    max-width: 100%;
+    padding-top: 118.3%;
+    flex-basis: 100%;
+    border: solid 1px white;
+    background-color: green;
+    box-sizing: border-box;
+  }
+  .category {
+    position: absolute;
+  }
+  .dealwrapper {
+    max-width: 100%;
+    height: 72px;
+    padding-top: 0;
+    flex-basis: 100%;
+    border: solid 1px white;
+    background-color: red;
+    box-sizing: border-box;
+  }
+  .deal {
+    position: absolute;
+  }
+  footer {
+    width: 100%;
+  }
+  .footertop {
+    height: 161px;
+    width: 100%;
+    background-color: #131313;
+  }
+  .footerbottom {
+    height: 97px;
+    width: 100%;
+    background-color: black;
+  }
+}
